@@ -67,7 +67,7 @@ class MainViewController: UIViewController {
     private func setSearchResultView(){
         resultImageView.image = UIImage(named: "background")
         resultImageView.contentMode = .scaleAspectFill
-        
+        newlyCoinedWordMeaningLabel.text = "검색어를 입력해 주세요."
         newlyCoinedWordMeaningLabel.textAlignment = .center
         newlyCoinedWordMeaningLabel.numberOfLines = 0
     }

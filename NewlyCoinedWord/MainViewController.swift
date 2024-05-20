@@ -23,7 +23,8 @@ class MainViewController: UIViewController {
         "꾸안꾸":"'꾸민 듯 안 꾸민 듯'의 줄임말.\n2019년 후반부터 인터넷 유행어로 쓰이기 시작했다.",
         "중꺽마":"중요한건 꺾이지 않는 마음",
         "스불재":"스스로 불러온 재앙",
-        "편백족":"편의점과 백화점의 앞글자로 만들어진 신조어"
+        "편백족":"편의점과 백화점의 앞글자로 만들어진 신조어",
+        "kijul":"너무 재밋어서 기절하겠다."
     ]
     
     override func viewDidLoad() {
@@ -92,7 +93,7 @@ class MainViewController: UIViewController {
         if word.isEmpty {
             newlyCoinedWordMeaningLabel.text = "다시 입력해 주세요"
         } else {
-            newlyCoinedWordMeaningLabel.text = newlyCoinedWords.keys.contains(word) ? newlyCoinedWords[word] : "\(word)에 대한\n검색결과가 없습니다."
+            newlyCoinedWordMeaningLabel.text = newlyCoinedWords.keys.contains(word.lowercased()) ? newlyCoinedWords[word.lowercased()] : "\(word)에 대한\n검색결과가 없습니다."
         }
     }
     

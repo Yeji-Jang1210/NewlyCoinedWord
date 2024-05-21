@@ -45,42 +45,49 @@
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="2z0-Lx-yHn">
-                                <rect key="frame" x="30" y="109" width="260" height="50"/>
+                                <rect key="frame" x="30" y="109" width="260" height="25"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jaP-Po-bmh">
-                                        <rect key="frame" x="0.0" y="0.0" width="30" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="25"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HhT-ip-yBU">
-                                        <rect key="frame" x="35" y="0.0" width="30" height="50"/>
+                                        <rect key="frame" x="25" y="0.0" width="20" height="25"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ATR-F3-EsL">
-                                        <rect key="frame" x="70" y="0.0" width="30" height="50"/>
+                                        <rect key="frame" x="50" y="0.0" width="20" height="25"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GeF-na-EyS">
-                                        <rect key="frame" x="105" y="0.0" width="30" height="50"/>
+                                        <rect key="frame" x="75" y="0.0" width="20" height="25"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     </button>
                                     <view contentMode="scaleToFill" horizontalHuggingPriority="249" translatesAutoresizingMaskIntoConstraints="NO" id="hZo-UB-I1E">
-                                        <rect key="frame" x="140" y="0.0" width="120" height="50"/>
+                                        <rect key="frame" x="100" y="0.0" width="160" height="25"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="jYN-Ym-NpN"/>
+                                </constraints>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HXG-TP-rXY">
-                                <rect key="frame" x="32" y="179" width="256" height="204"/>
+                                <rect key="frame" x="32" y="154" width="256" height="256"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="HXG-TP-rXY" secondAttribute="height" multiplier="260:207" id="WGr-SX-a5e"/>
+                                    <constraint firstAttribute="width" secondItem="HXG-TP-rXY" secondAttribute="height" multiplier="1:1" id="WGr-SX-a5e"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oSW-xO-Yj4">
-                                <rect key="frame" x="57.5" y="204" width="205" height="153.5"/>
+                                <rect key="frame" x="57.5" y="205" width="205" height="154"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="oSW-xO-Yj4" secondAttribute="height" multiplier="4:3" id="v8t-J7-TKD"/>
                                 </constraints>

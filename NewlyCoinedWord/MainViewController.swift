@@ -57,9 +57,6 @@ class MainViewController: UIViewController {
             button.layer.borderWidth = 1
             button.tintColor = .lightGray
             button.setTitleColor(.black, for: .normal)
-            var config = UIButton.Configuration.plain()
-            config.contentInsets = NSDirectionalEdgeInsets(top: 10, leading: 10, bottom: 10, trailing: 10)
-            button.configuration = config
             
         }
         randomTitle()
